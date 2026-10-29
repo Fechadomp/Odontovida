@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odontovida - Clínica Dentária</title>
-    <!-- CSS do Bootstrap -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     
-    <!-- Estilos personalizados para o Tema Escuro -->
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -59,7 +58,6 @@
 </head>
 <body>
 
-    <!-- Cabeçalho / Navbar com Abas -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#" onclick="mudarSecao('inicio')">Odontovida</a>
@@ -76,9 +74,8 @@
         </div>
     </nav>
 
-          <!-- SEÇÃO: INÍCIO (Com Carrossel e Sobre Juntos) -->
     <div id="secao-inicio" class="secao-pagina">
-        <!-- Carrossel -->
+        
         <div id="carouselExample" class="carousel slide mb-5" data-bs-ride="carousel">
             <div class="carousel-inner rounded shadow">
                 <div class="carousel-item active">
@@ -98,7 +95,6 @@
             </button>
         </div>
 
-        <!-- Conteúdo Sobre a Clínica (Logo abaixo do carrossel) -->
         <section class="container my-5">
             <div class="row align-items-center g-4">
                 <div class="col-lg-6">
@@ -117,7 +113,6 @@
         </section>
     </div>
 
-              <!-- SEÇÃO: EQUIPA -->
     <div id="secao-equipa" class="secao-pagina d-none">
         <section class="container my-5">
             <div class="text-center mb-5">
@@ -126,7 +121,7 @@
             </div>
             
             <div class="row g-4 justify-content-center">
-                <!-- Colaborador 1 (Ryan Rabelo) -->
+                
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary shadow-sm p-3 h-100 text-center">
                         <img src="images/ryan.jpg" class="rounded-circle mx-auto mb-3 border border-primary shadow" style="width: 100px; height: 100px; object-fit: cover;" alt="Ryan Rabelo">
@@ -136,7 +131,6 @@
                     </div>
                 </div>
 
-                <!-- Colaborador 2 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary shadow-sm p-3 h-100 text-center">
                         <img src="images/pedro.jpg" class="rounded-circle mx-auto mb-3 border border-primary shadow" style="width: 100px; height: 100px; object-fit: cover;" alt="Colaborador 2">
@@ -146,7 +140,6 @@
                     </div>
                 </div>
 
-                <!-- Colaborador 3 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary shadow-sm p-3 h-100 text-center">
                         <img src="images/arthur.jpg" class="rounded-circle mx-auto mb-3 border border-primary shadow" style="width: 100px; height: 100px; object-fit: cover;" alt="Colaborador 3">
@@ -154,9 +147,7 @@
                         <p class="text-info small mb-1">Responsável de Conteúdo</p>
                         <p class="card-text small opacity-75 mb-0">Organização de textos, secções e estrutura informativa.</p>
                     </div>
-                </div>
-
-                <!-- Colaborador 4 -->
+                
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary shadow-sm p-3 h-100 text-center">
                         <img src="images/gustavo.jpg" class="rounded-circle mx-auto mb-3 border border-primary shadow" style="width: 100px; height: 100px; object-fit: cover;" alt="Colaborador 4">
@@ -166,7 +157,6 @@
                     </div>
                 </div>
 
-                <!-- Colaborador 5 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white border-secondary shadow-sm p-3 h-100 text-center">
                         <img src="images/felipe.jpg" class="rounded-circle mx-auto mb-3 border border-primary shadow" style="width: 100px; height: 100px; object-fit: cover;" alt="Colaborador 5">
@@ -179,7 +169,6 @@
         </section>
     </div>
 
-      <!-- SEÇÃO: CONTACTO -->
     <div id="secao-contacto" class="secao-pagina d-none">
         <section class="container my-5">
             <div class="row justify-content-center">
@@ -194,7 +183,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="telefone" class="form-label">Celular / Telefone</label>
-                                <input type="tel" class="form-control" id="telefone" required placeholder="O seu contacto">
+                                <input type="tel" class="form-control" id="telefone" required placeholder="O seu contato">
                             </div>
                             <div class="mb-3">
                                 <label for="mensagem" class="form-label">Mensagem ou Motivo</label>
@@ -212,7 +201,6 @@
         </section>
     </div>
 
-    <!-- JS do Bootstrap e Lógica das Abas -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         function mudarSecao(nomeSecao) {
